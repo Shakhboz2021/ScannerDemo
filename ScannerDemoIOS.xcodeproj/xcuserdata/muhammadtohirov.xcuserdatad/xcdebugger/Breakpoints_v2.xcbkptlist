@@ -30,9 +30,9 @@
             filePath = "../../Packages/Scanner/Sources/CardScanner/CardScanner.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "306"
-            endingLineNumber = "306"
-            landmarkName = "processTextObservations(_:)"
+            startingLineNumber = "309"
+            endingLineNumber = "309"
+            landmarkName = "validateExpirationDate(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -46,9 +46,9 @@
             filePath = "../../Packages/Scanner/Sources/CardScanner/CardScanner.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "261"
-            endingLineNumber = "261"
-            landmarkName = "validateExpirationDate(_:)"
+            startingLineNumber = "264"
+            endingLineNumber = "264"
+            landmarkName = "showPermissionAlert()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

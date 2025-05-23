@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		D03CAB892DDDB72700FFAE4A /* Scanner in Frameworks */ = {isa = PBXBuildFile; productRef = D03CAB882DDDB72700FFAE4A /* Scanner */; };
+		D0F198E12DE0810C00C8BA89 /* ScanDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F198DE2DE0810C00C8BA89 /* ScanDemoApp.swift */; };
+		D0F198E22DE0810C00C8BA89 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F198DA2DE0810C00C8BA89 /* ContentView.swift */; };
+		D0F198E32DE0810C00C8BA89 /* ScanDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0F198DD2DE0810C00C8BA89 /* ScanDemo.xcdatamodeld */; };
+		D0F198E42DE0810C00C8BA89 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F198DC2DE0810C00C8BA89 /* Persistence.swift */; };
+		D0F198E52DE0810C00C8BA89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0F198D92DE0810C00C8BA89 /* Assets.xcassets */; };
+		D0F198E62DE0810C00C8BA89 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0F198DB2DE0810C00C8BA89 /* Info.plist */; };
+		D0F198E72DE0810C00C8BA89 /* ScanDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F198DE2DE0810C00C8BA89 /* ScanDemoApp.swift */; };
+		D0F198E82DE0810C00C8BA89 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F198DA2DE0810C00C8BA89 /* ContentView.swift */; };
+		D0F198E92DE0810C00C8BA89 /* ScanDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0F198DD2DE0810C00C8BA89 /* ScanDemo.xcdatamodeld */; };
+		D0F198EA2DE0810C00C8BA89 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F198DC2DE0810C00C8BA89 /* Persistence.swift */; };
+		D0F198EB2DE0810C00C8BA89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0F198D92DE0810C00C8BA89 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,30 +39,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D04916B62DDC5F21003A55E1 /* ScanDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScanDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D04916C82DDC5F24003A55E1 /* ScanDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScanDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D04916D22DDC5F24003A55E1 /* ScanDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScanDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D04916B62DDC5F21003A55E1 /* ScannerDemoIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScannerDemoIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D04916C82DDC5F24003A55E1 /* ScannerDemoIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScannerDemoIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D04916D22DDC5F24003A55E1 /* ScannerDemoIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScannerDemoIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0F198D92DE0810C00C8BA89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0F198DA2DE0810C00C8BA89 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D0F198DB2DE0810C00C8BA89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0F198DC2DE0810C00C8BA89 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		D0F198DE2DE0810C00C8BA89 /* ScanDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanDemoApp.swift; sourceTree = "<group>"; };
+		D0F198E02DE0810C00C8BA89 /* ScanDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ScanDemo.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		D08D4D662DDC949D00E76E14 /* Exceptions for "ScanDemo" folder in "ScanDemo" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = D04916B52DDC5F21003A55E1 /* ScanDemo */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		D04916B82DDC5F21003A55E1 /* ScanDemo */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				D08D4D662DDC949D00E76E14 /* Exceptions for "ScanDemo" folder in "ScanDemo" target */,
-			);
-			path = ScanDemo;
-			sourceTree = "<group>";
-		};
 		D04916CB2DDC5F24003A55E1 /* ScanDemoTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = ScanDemoTests;
@@ -93,7 +92,7 @@
 		D04916AD2DDC5F21003A55E1 = {
 			isa = PBXGroup;
 			children = (
-				D04916B82DDC5F21003A55E1 /* ScanDemo */,
+				D0F198DF2DE0810C00C8BA89 /* ScannerDemoIOS */,
 				D04916CB2DDC5F24003A55E1 /* ScanDemoTests */,
 				D04916D52DDC5F24003A55E1 /* ScanDemoUITests */,
 				D08D4D5F2DDC8FDE00E76E14 /* Frameworks */,
@@ -104,9 +103,9 @@
 		D04916B72DDC5F21003A55E1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D04916B62DDC5F21003A55E1 /* ScanDemo.app */,
-				D04916C82DDC5F24003A55E1 /* ScanDemoTests.xctest */,
-				D04916D22DDC5F24003A55E1 /* ScanDemoUITests.xctest */,
+				D04916B62DDC5F21003A55E1 /* ScannerDemoIOS.app */,
+				D04916C82DDC5F24003A55E1 /* ScannerDemoIOSTests.xctest */,
+				D04916D22DDC5F24003A55E1 /* ScannerDemoIOSUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,12 +117,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D0F198DF2DE0810C00C8BA89 /* ScannerDemoIOS */ = {
+			isa = PBXGroup;
+			children = (
+				D0F198D92DE0810C00C8BA89 /* Assets.xcassets */,
+				D0F198DA2DE0810C00C8BA89 /* ContentView.swift */,
+				D0F198DB2DE0810C00C8BA89 /* Info.plist */,
+				D0F198DC2DE0810C00C8BA89 /* Persistence.swift */,
+				D0F198DD2DE0810C00C8BA89 /* ScanDemo.xcdatamodeld */,
+				D0F198DE2DE0810C00C8BA89 /* ScanDemoApp.swift */,
+			);
+			path = ScannerDemoIOS;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D04916B52DDC5F21003A55E1 /* ScanDemo */ = {
+		D04916B52DDC5F21003A55E1 /* ScannerDemoIOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D04916DC2DDC5F24003A55E1 /* Build configuration list for PBXNativeTarget "ScanDemo" */;
+			buildConfigurationList = D04916DC2DDC5F24003A55E1 /* Build configuration list for PBXNativeTarget "ScannerDemoIOS" */;
 			buildPhases = (
 				D04916B22DDC5F21003A55E1 /* Sources */,
 				D04916B32DDC5F21003A55E1 /* Frameworks */,
@@ -133,20 +145,17 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				D04916B82DDC5F21003A55E1 /* ScanDemo */,
-			);
-			name = ScanDemo;
+			name = ScannerDemoIOS;
 			packageProductDependencies = (
 				D03CAB882DDDB72700FFAE4A /* Scanner */,
 			);
 			productName = ScanDemo;
-			productReference = D04916B62DDC5F21003A55E1 /* ScanDemo.app */;
+			productReference = D04916B62DDC5F21003A55E1 /* ScannerDemoIOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D04916C72DDC5F24003A55E1 /* ScanDemoTests */ = {
+		D04916C72DDC5F24003A55E1 /* ScannerDemoIOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D04916DF2DDC5F24003A55E1 /* Build configuration list for PBXNativeTarget "ScanDemoTests" */;
+			buildConfigurationList = D04916DF2DDC5F24003A55E1 /* Build configuration list for PBXNativeTarget "ScannerDemoIOSTests" */;
 			buildPhases = (
 				D04916C42DDC5F24003A55E1 /* Sources */,
 				D04916C52DDC5F24003A55E1 /* Frameworks */,
@@ -160,16 +169,16 @@
 			fileSystemSynchronizedGroups = (
 				D04916CB2DDC5F24003A55E1 /* ScanDemoTests */,
 			);
-			name = ScanDemoTests;
+			name = ScannerDemoIOSTests;
 			packageProductDependencies = (
 			);
 			productName = ScanDemoTests;
-			productReference = D04916C82DDC5F24003A55E1 /* ScanDemoTests.xctest */;
+			productReference = D04916C82DDC5F24003A55E1 /* ScannerDemoIOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D04916D12DDC5F24003A55E1 /* ScanDemoUITests */ = {
+		D04916D12DDC5F24003A55E1 /* ScannerDemoIOSUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D04916E22DDC5F24003A55E1 /* Build configuration list for PBXNativeTarget "ScanDemoUITests" */;
+			buildConfigurationList = D04916E22DDC5F24003A55E1 /* Build configuration list for PBXNativeTarget "ScannerDemoIOSUITests" */;
 			buildPhases = (
 				D04916CE2DDC5F24003A55E1 /* Sources */,
 				D04916CF2DDC5F24003A55E1 /* Frameworks */,
@@ -183,11 +192,11 @@
 			fileSystemSynchronizedGroups = (
 				D04916D52DDC5F24003A55E1 /* ScanDemoUITests */,
 			);
-			name = ScanDemoUITests;
+			name = ScannerDemoIOSUITests;
 			packageProductDependencies = (
 			);
 			productName = ScanDemoUITests;
-			productReference = D04916D22DDC5F24003A55E1 /* ScanDemoUITests.xctest */;
+			productReference = D04916D22DDC5F24003A55E1 /* ScannerDemoIOSUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -213,7 +222,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D04916B12DDC5F21003A55E1 /* Build configuration list for PBXProject "ScanDemo" */;
+			buildConfigurationList = D04916B12DDC5F21003A55E1 /* Build configuration list for PBXProject "ScannerDemoIOS" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -230,9 +239,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D04916B52DDC5F21003A55E1 /* ScanDemo */,
-				D04916C72DDC5F24003A55E1 /* ScanDemoTests */,
-				D04916D12DDC5F24003A55E1 /* ScanDemoUITests */,
+				D04916B52DDC5F21003A55E1 /* ScannerDemoIOS */,
+				D04916C72DDC5F24003A55E1 /* ScannerDemoIOSTests */,
+				D04916D12DDC5F24003A55E1 /* ScannerDemoIOSUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -242,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0F198EB2DE0810C00C8BA89 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +259,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0F198E52DE0810C00C8BA89 /* Assets.xcassets in Resources */,
+				D0F198E62DE0810C00C8BA89 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +278,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0F198E72DE0810C00C8BA89 /* ScanDemoApp.swift in Sources */,
+				D0F198E82DE0810C00C8BA89 /* ContentView.swift in Sources */,
+				D0F198E92DE0810C00C8BA89 /* ScanDemo.xcdatamodeld in Sources */,
+				D0F198EA2DE0810C00C8BA89 /* Persistence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +289,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0F198E12DE0810C00C8BA89 /* ScanDemoApp.swift in Sources */,
+				D0F198E22DE0810C00C8BA89 /* ContentView.swift in Sources */,
+				D0F198E32DE0810C00C8BA89 /* ScanDemo.xcdatamodeld in Sources */,
+				D0F198E42DE0810C00C8BA89 /* Persistence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,12 +308,12 @@
 /* Begin PBXTargetDependency section */
 		D04916CA2DDC5F24003A55E1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D04916B52DDC5F21003A55E1 /* ScanDemo */;
+			target = D04916B52DDC5F21003A55E1 /* ScannerDemoIOS */;
 			targetProxy = D04916C92DDC5F24003A55E1 /* PBXContainerItemProxy */;
 		};
 		D04916D42DDC5F24003A55E1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D04916B52DDC5F21003A55E1 /* ScanDemo */;
+			target = D04916B52DDC5F21003A55E1 /* ScannerDemoIOS */;
 			targetProxy = D04916D32DDC5F24003A55E1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -427,10 +447,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 45EQP9793K;
+				DEVELOPMENT_TEAM = 8MP67AP62K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ScanDemo/Info.plist;
+				INFOPLIST_FILE = ScannerDemoIOS/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "We need camera usage";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -443,7 +463,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = fido.uz.ScanDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = fido.uz.ScannerDemoIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -462,10 +482,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 45EQP9793K;
+				DEVELOPMENT_TEAM = 8MP67AP62K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ScanDemo/Info.plist;
+				INFOPLIST_FILE = ScannerDemoIOS/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "We need camera usage";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -478,7 +498,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = fido.uz.ScanDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = fido.uz.ScannerDemoIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -505,7 +525,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScanDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScanDemo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScannerDemoIOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScannerDemoIOS";
 			};
 			name = Debug;
 		};
@@ -524,7 +544,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScanDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScanDemo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScannerDemoIOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ScannerDemoIOS";
 			};
 			name = Release;
 		};
@@ -565,7 +585,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D04916B12DDC5F21003A55E1 /* Build configuration list for PBXProject "ScanDemo" */ = {
+		D04916B12DDC5F21003A55E1 /* Build configuration list for PBXProject "ScannerDemoIOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D04916DA2DDC5F24003A55E1 /* Debug */,
@@ -574,7 +594,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D04916DC2DDC5F24003A55E1 /* Build configuration list for PBXNativeTarget "ScanDemo" */ = {
+		D04916DC2DDC5F24003A55E1 /* Build configuration list for PBXNativeTarget "ScannerDemoIOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D04916DD2DDC5F24003A55E1 /* Debug */,
@@ -583,7 +603,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D04916DF2DDC5F24003A55E1 /* Build configuration list for PBXNativeTarget "ScanDemoTests" */ = {
+		D04916DF2DDC5F24003A55E1 /* Build configuration list for PBXNativeTarget "ScannerDemoIOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D04916E02DDC5F24003A55E1 /* Debug */,
@@ -592,7 +612,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D04916E22DDC5F24003A55E1 /* Build configuration list for PBXNativeTarget "ScanDemoUITests" */ = {
+		D04916E22DDC5F24003A55E1 /* Build configuration list for PBXNativeTarget "ScannerDemoIOSUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D04916E32DDC5F24003A55E1 /* Debug */,
@@ -617,6 +637,19 @@
 			productName = Scanner;
 		};
 /* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		D0F198DD2DE0810C00C8BA89 /* ScanDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D0F198E02DE0810C00C8BA89 /* ScanDemo.xcdatamodel */,
+			);
+			currentVersion = D0F198E02DE0810C00C8BA89 /* ScanDemo.xcdatamodel */;
+			path = ScanDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D04916AE2DDC5F21003A55E1 /* Project object */;
 }
