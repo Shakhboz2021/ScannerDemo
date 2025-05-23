@@ -1,0 +1,15 @@
+{
+  "originHash" : "b6e6bdf6962faaa6552d4d45bd7cc8ee5d02c0f771dbc234b2ba2213d948400a",
+  "pins" : [
+    {
+      "identity" : "scanner",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Shakhboz2021/Scanner.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "fb1509112c8a4caf172f0c883800b4edbe3c58f5"
+      }
+    }
+  ],
+  "version" : 3
+}

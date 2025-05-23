@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D03CAB892DDDB72700FFAE4A /* Scanner in Frameworks */ = {isa = PBXBuildFile; productRef = D03CAB882DDDB72700FFAE4A /* Scanner */; };
+		D00004CA2DE086F50071919B /* Scanner in Frameworks */ = {isa = PBXBuildFile; productRef = D00004C92DE086F50071919B /* Scanner */; };
 		D0F198E12DE0810C00C8BA89 /* ScanDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F198DE2DE0810C00C8BA89 /* ScanDemoApp.swift */; };
 		D0F198E22DE0810C00C8BA89 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F198DA2DE0810C00C8BA89 /* ContentView.swift */; };
 		D0F198E32DE0810C00C8BA89 /* ScanDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0F198DD2DE0810C00C8BA89 /* ScanDemo.xcdatamodeld */; };
@@ -68,7 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D03CAB892DDDB72700FFAE4A /* Scanner in Frameworks */,
+				D00004CA2DE086F50071919B /* Scanner in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,7 +147,7 @@
 			);
 			name = ScannerDemoIOS;
 			packageProductDependencies = (
-				D03CAB882DDDB72700FFAE4A /* Scanner */,
+				D00004C92DE086F50071919B /* Scanner */,
 			);
 			productName = ScanDemo;
 			productReference = D04916B62DDC5F21003A55E1 /* ScannerDemoIOS.app */;
@@ -232,7 +232,7 @@
 			mainGroup = D04916AD2DDC5F21003A55E1;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				D0B1F3B32DDDB6C6003F83E2 /* XCLocalSwiftPackageReference "../../Packages/Scanner" */,
+				D00004C82DE086BE0071919B /* XCRemoteSwiftPackageReference "Scanner" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = D04916B72DDC5F21003A55E1 /* Products */;
@@ -623,17 +623,21 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCLocalSwiftPackageReference section */
-		D0B1F3B32DDDB6C6003F83E2 /* XCLocalSwiftPackageReference "../../Packages/Scanner" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = ../../Packages/Scanner;
+/* Begin XCRemoteSwiftPackageReference section */
+		D00004C82DE086BE0071919B /* XCRemoteSwiftPackageReference "Scanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Shakhboz2021/Scanner.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
 		};
-/* End XCLocalSwiftPackageReference section */
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		D03CAB882DDDB72700FFAE4A /* Scanner */ = {
+		D00004C92DE086F50071919B /* Scanner */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = D0B1F3B32DDDB6C6003F83E2 /* XCLocalSwiftPackageReference "../../Packages/Scanner" */;
+			package = D00004C82DE086BE0071919B /* XCRemoteSwiftPackageReference "Scanner" */;
 			productName = Scanner;
 		};
 /* End XCSwiftPackageProductDependency section */
